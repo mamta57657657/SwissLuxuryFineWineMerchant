@@ -63,9 +63,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="/assets/aistudio/0026553_logo_7cacf244.webp"
+                src="/assets/aistudio/logo-white.png"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).src = '/assets/aistudio/0026553_logo_7cacf244.webp';
+                }}
                 alt="ARVI SA"
-                className="h-12 w-auto object-contain filter invert opacity-90"
+                className="h-12 w-auto object-contain"
+                loading="lazy"
+                decoding="async"
               />
               <span className="font-serif text-2xl tracking-widest text-white font-medium">
                 ARVI

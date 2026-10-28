@@ -30,9 +30,14 @@ export const AgeGateModal: React.FC<AgeGateModalProps> = ({ isOpen, onConfirm })
         {/* ARVI Logo */}
         <div className="flex justify-center mb-5">
           <img
-            src="/assets/aistudio/0026553_logo_7cacf244.webp"
+            src="/assets/aistudio/logo-dark.png"
+            onError={(e) => {
+              (e.currentTarget as HTMLImageElement).src = '/assets/aistudio/0026553_logo_7cacf244.webp';
+            }}
             alt="ARVI SA"
             className="h-16 w-auto object-contain"
+            loading="eager"
+            decoding="async"
           />
         </div>
 

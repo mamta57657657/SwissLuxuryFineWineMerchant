@@ -38,7 +38,7 @@ export const CassaforteModal: React.FC<CassaforteModalProps> = ({ isOpen, onClos
         {/* Header with image */}
         <div className="relative h-48 sm:h-56 bg-black overflow-hidden shrink-0">
           <img
-            src="/src/assets/images/cassaforte_wine_vault_1793186967559.jpg"
+            src="/assets/images/cassaforte_wine_vault_1793186967559.jpg"
             alt="Cassaforte del Vino ARVI Melano"
             className="w-full h-full object-cover filter brightness-[0.7]"
           />

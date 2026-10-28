@@ -78,7 +78,7 @@ export const EnPrimeurSection: React.FC<EnPrimeurSectionProps> = ({ currency, in
       {/* Background Ambience with generated barrel cellar photo */}
       <div className="absolute inset-0 opacity-20 pointer-events-none mix-blend-luminosity">
         <img
-          src="/src/assets/images/barrel_cellar_enprimeur_1793199090519.jpg"
+          src="/assets/images/barrel_cellar_enprimeur_1793199090519.jpg"
           alt="Bordeaux Barrel Cellar"
           className="w-full h-full object-cover filter brightness-75 contrast-125"
         />
@@ -144,7 +144,7 @@ export const EnPrimeurSection: React.FC<EnPrimeurSectionProps> = ({ currency, in
           {/* Left Column: Visual Backdrop (5 cols) */}
           <div className="lg:col-span-5 relative rounded-xl overflow-hidden aspect-[4/3] group">
             <img
-              src="/src/assets/images/barrel_cellar_enprimeur_1793199090519.jpg"
+              src="/assets/images/barrel_cellar_enprimeur_1793199090519.jpg"
               alt="Bordeaux Barriques ARVI"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />

@@ -9,19 +9,19 @@ export const EstatesShowcase: React.FC<EstatesShowcaseProps> = ({ onSelectEstate
     {
       id: 'pontet-canet',
       name: 'Chateau Pontet Canet',
-      image: '/src/assets/images/chateau_bordeaux_estate_1793186968365.jpg',
+      image: '/assets/images/chateau_bordeaux_estate_1793186968365.jpg',
       alt: 'Chateau Pontet Canet entrance and yellow flowers',
     },
     {
       id: 'chavy-chouet',
       name: 'Chavy Chouet',
-      image: '/src/assets/images/chavy_chouet_glass_1793198287769.jpg',
+      image: '/assets/images/chavy_chouet_glass_1793198287769.jpg',
       alt: 'Chavy Chouet glass overlooking Burgundy vineyards',
     },
     {
       id: 'chateau-pavie',
       name: 'Chateau Pavie',
-      image: '/src/assets/images/historic_wine_archive_1793199117633.jpg',
+      image: '/assets/images/historic_wine_archive_1793199117633.jpg',
       alt: 'Chateau Pavie Grand Cru Classé A Saint-Émilion',
     },
   ];

@@ -33,7 +33,7 @@ export const CassaforteVaultSection: React.FC<CassaforteVaultSectionProps> = ({ 
         {/* Right Side: Close-up Photography of Hygrometer, Thermometer and Cellar Hardware */}
         <div className="relative min-h-[260px] md:min-h-full overflow-hidden bg-[#1A1718]">
           <img
-            src="/src/assets/images/cassaforte_hygrometer_1793198288877.jpg"
+            src="/assets/images/cassaforte_hygrometer_1793198288877.jpg"
             alt="Hygromètre et thermomètre de précision dans la cave ARVI à Melano"
             className="w-full h-full object-cover object-center"
             loading="lazy"

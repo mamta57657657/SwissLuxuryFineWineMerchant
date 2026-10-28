@@ -25,7 +25,7 @@ export const BOUTIQUES: BoutiqueLocation[] = [
     email: 'melano@arvi.ch',
     hours: 'Lun - Ven: 08:30 - 18:00 (Su appuntamento)',
     features: ['Caveau ad alta sicurezza', 'Deposito doganale esente IVA', 'Degustazioni private', 'Ritiro ordini'],
-    image: '/src/assets/images/cassaforte_wine_vault_1793186967559.jpg',
+    image: '/assets/images/cassaforte_wine_vault_1793186967559.jpg',
     description: 'Il cuore pulsante di ARVI: la nostra sede centrale ospita la celebre Cassaforte del Vino, un caveau blindato a 14°C costanti dove riposano oltre 1 milione di bottiglie pregiate.'
   },
   {
@@ -38,7 +38,7 @@ export const BOUTIQUES: BoutiqueLocation[] = [
     email: 'lugano@arvi.ch',
     hours: 'Mar - Sab: 10:00 - 19:00',
     features: ['Sommelier dedicato in boutique', 'Selezione da asporto immediata', 'Enoteca di prestigio'],
-    image: '/src/assets/images/arvi_luxury_boutique_1793186969082.jpg',
+    image: '/assets/images/arvi_luxury_boutique_1793186969082.jpg',
     description: 'Nel cuore della lussuosa via dello shopping di Lugano, un salotto raffinato per collezionisti ed appassionati dove scoprire le ultime novità e ritirare le allocazioni En Primeur.'
   },
   {
@@ -51,7 +51,7 @@ export const BOUTIQUES: BoutiqueLocation[] = [
     email: 'zuerich@arvi.ch',
     hours: 'Lun - Sab: 10:30 - 19:30',
     features: ['Wine Lounge esclusivo', 'Masterclass per collezionisti', 'Consulenza per investimenti in vino'],
-    image: '/src/assets/images/arvi_luxury_boutique_1793186969082.jpg',
+    image: '/assets/images/arvi_luxury_boutique_1793186969082.jpg',
     description: 'A due passi da Paradeplatz, un elegante punto di riferimento a Zurigo per assaggiare calici rari, consultare i nostri wine advisor e pianificare le cantine private.'
   }
 ];
@@ -75,7 +75,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 24,
     inVaultAvailable: true,
-    image: '/src/assets/images/champagne_prestige_bottle_1793189053626.jpg',
+    image: '/assets/images/champagne_prestige_bottle_1793189053626.jpg',
     description: 'Raffinata espressione dello stile Rothschild. Blend dominante di Chardonnay Grand Cru con Pinot Noir vinificato in rosso, perlage finissimo e sfumature di petali di rosa.',
     tastingNotes: {
       nose: 'Fragoline di bosco, scorza di mandarino, brioche calda e pepe bianco.',
@@ -103,7 +103,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 60,
     inVaultAvailable: true,
-    image: '/src/assets/images/champagne_prestige_bottle_1793189053626.jpg',
+    image: '/assets/images/champagne_prestige_bottle_1793189053626.jpg',
     description: 'Lo Champagne preferito di Sir Winston Churchill. Perfetto equilibrio tra Chardonnay, Pinot Noir e Pinot Meunier con almeno 3 anni di affinamento sui lieviti nelle storiche cantine di Épernay.',
     tastingNotes: {
       nose: 'Note eleganti di pera matura, albicocca secca, vaniglia e crosta di pane dorata.',
@@ -131,7 +131,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 36,
     inVaultAvailable: true,
-    image: '/src/assets/images/champagne_prestige_bottle_1793189053626.jpg',
+    image: '/assets/images/champagne_prestige_bottle_1793189053626.jpg',
     description: 'Cuvee identitaria della storica maison di Mareuil-sur-Aÿ. Include vini di riserva affinati in botte di rovere secondo il metodo solera perpetuo della famiglia.',
     tastingNotes: {
       nose: 'Fiori di tiglio, mela renetta cotta, miele d’acacia e sfumature tostate.',
@@ -159,7 +159,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 18,
     inVaultAvailable: true,
-    image: '/src/assets/images/champagne_prestige_bottle_1793189053626.jpg',
+    image: '/assets/images/champagne_prestige_bottle_1793189053626.jpg',
     description: 'Il celebre rosé della più antica maison de Champagne, fondata nel 1729. Una golosa tavolozza aromatica ottenuta con maestria tra Chardonnay luminoso e Pinot Noir fruttato.',
     tastingNotes: {
       nose: 'Melograno, lampone fresco, ciliegia moretta e scorza di pompelmo rosa.',
@@ -187,7 +187,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 15,
     inVaultAvailable: true,
-    image: '/src/assets/images/champagne_prestige_bottle_1793189053626.jpg',
+    image: '/assets/images/champagne_prestige_bottle_1793189053626.jpg',
     description: 'Un’annata di grazia e precisione scultorea. Frutto di un millesimo tardivo che ha regalato tensione minerale eccezionale e profondità straordinaria.',
     tastingNotes: {
       nose: 'Eucalipto, menta piperita, susina mirabelle, cardamomo e fumo nobile.',
@@ -215,7 +215,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 8,
     inVaultAvailable: true,
-    image: '/src/assets/images/champagne_prestige_bottle_1793189053626.jpg',
+    image: '/assets/images/champagne_prestige_bottle_1793189053626.jpg',
     description: 'La Seconda Plénitude di Dom Pérignon: 16 anni di lenta maturazione sui lieviti nelle cantine storiche per un’energia vibrante e una tridimensionalità aromatica straordinaria.',
     tastingNotes: {
       nose: 'Pompelmo rosa, bergamotto, brioche tostata, polvere da sparo e nocciola tostata.',
@@ -243,7 +243,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 20,
     inVaultAvailable: true,
-    image: '/src/assets/images/champagne_prestige_bottle_1793189053626.jpg',
+    image: '/assets/images/champagne_prestige_bottle_1793189053626.jpg',
     description: 'Creata attorno alla vendemmia 2015, questa cuvée unisce 131 vini di 12 annate differenti. Oltre sette anni di affinamento sui lieviti nelle cantine di Reims.',
     tastingNotes: {
       nose: 'Fiori bianchi d’arancio, marzapane, pan di zenzero, mela cotogna e miele di castagno.',
@@ -273,7 +273,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 2,
     inVaultAvailable: true,
-    image: '/src/assets/images/bordeaux_grand_cru_bottle_1793189053792.jpg',
+    image: '/assets/images/bordeaux_grand_cru_bottle_1793189053792.jpg',
     description: 'Rarissimo formato Double Magnum (300cl) proveniente direttamente da cantina privata climatizzata. Uno dei vertici assoluti della riva destra bordolese, su roccia calcarea pura.',
     tastingNotes: {
       nose: 'Tartufo nero pregiato, tabacco da pipa Havana, mora selvatica, grafite e cedro del Libano.',
@@ -301,7 +301,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 5,
     inVaultAvailable: true,
-    image: '/src/assets/images/bordeaux_grand_cru_bottle_1793189053792.jpg',
+    image: '/assets/images/bordeaux_grand_cru_bottle_1793189053792.jpg',
     description: 'Annata storica del bicentenario della tenuta e tributo al leggendario direttore Paul Pontallier. Bottiglia speciale serigrafata in oro e nero.',
     tastingNotes: {
       nose: 'Profumo inebriante di petali di rosa, violette di Margaux, cedro, ciliegia nera e spezie fini.',
@@ -329,7 +329,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 11,
     inVaultAvailable: true,
-    image: '/src/assets/images/bordeaux_grand_cru_bottle_1793189053792.jpg',
+    image: '/assets/images/bordeaux_grand_cru_bottle_1793189053792.jpg',
     description: 'Voto 100/100 Robert Parker. Uno dei capolavori del millesimo 2010. Pendenza calcarea ideale esposta a pieno sud che dona concentrazione straordinaria.',
     tastingNotes: {
       nose: 'Liquirizia nera, more di rovo, grafite, tartufo estivo e sottili note tostate di rovere francese.',
@@ -357,7 +357,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 42,
     inVaultAvailable: true,
-    image: '/src/assets/images/bordeaux_grand_cru_bottle_1793189053792.jpg',
+    image: '/assets/images/bordeaux_grand_cru_bottle_1793189053792.jpg',
     description: 'Pioniere della biodinamica nei Grand Cru bordolesi. Cavalli nei vigneti e anfore di cemento danno vita a un Pauillac di purezza e densità mozzafiato.',
     tastingNotes: {
       nose: 'Prugna matura, grafite pura, violetta, cioccolato fondente 85% e scatola di sigari.',
@@ -385,7 +385,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 3,
     inVaultAvailable: true,
-    image: '/src/assets/images/bordeaux_grand_cru_bottle_1793189053792.jpg',
+    image: '/assets/images/bordeaux_grand_cru_bottle_1793189053792.jpg',
     description: 'Un pezzo di storia enologica millesimato 1967. Livello e capsula verificati con perizia ARVI nel nostro laboratorio di Melano prima dell’inserimento nel caveau.',
     tastingNotes: {
       nose: 'Fogliame autunnale bagnato, funghi porcini secchi, noce moscata e fichi macerati.',
@@ -415,7 +415,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 1,
     inVaultAvailable: true,
-    image: '/src/assets/images/burgundy_grand_cru_bottle_1793189054648.jpg',
+    image: '/assets/images/burgundy_grand_cru_bottle_1793189054648.jpg',
     description: 'Il vertice incontrastato del collezionismo mondiale. Monopole di appena 1.81 ettari a Vosne-Romanée. Provenienza diretta e allocazione certificata con custodia continua a 14°C nel caveau ARVI.',
     tastingNotes: {
       nose: 'Rose appassite orientali, tè lapsang souchong, tartufo bianco, ciliegia amarena e incenso.',
@@ -443,7 +443,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 0,
     inVaultAvailable: false,
-    image: '/src/assets/images/burgundy_grand_cru_bottle_1793189054648.jpg',
+    image: '/assets/images/burgundy_grand_cru_bottle_1793189054648.jpg',
     description: 'Il Re dei vini di Borgogna secondo il maestro incontrastato Armand Rousseau. Attualmente esaurito sul mercato primario, disponibile solo su allocazione privata.',
     tastingNotes: {
       nose: 'Fragola selvatica di bosco, cassis purissimo, incenso, viola mammola e polvere di pietra focaia.',
@@ -471,7 +471,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 4,
     inVaultAvailable: true,
-    image: '/src/assets/images/burgundy_grand_cru_bottle_1793189054648.jpg',
+    image: '/assets/images/burgundy_grand_cru_bottle_1793189054648.jpg',
     description: 'Icona immortale della Côte de Nuits. Vigneti storici nel comune di Chambolle-Musigny, vinificazione tradizionale per un Pinot Noir di austera e ipnotica sensualità.',
     tastingNotes: {
       nose: 'Sottobosco autunnale, mirtilli macerati, pot-pourri di rose appassite, tè nero Keemun e cuoio di Russia.',
@@ -499,7 +499,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 18,
     inVaultAvailable: true,
-    image: '/src/assets/images/burgundy_grand_cru_bottle_1793189054648.jpg',
+    image: '/assets/images/burgundy_grand_cru_bottle_1793189054648.jpg',
     description: 'Espressione magistrale di Romaric Chavy a Puligny-Montrachet. Vecchie vigne adiacenti a Bâtard-Montrachet: tensione minerale, agrumi canditi, nocciola tostata e purezza cristallina.',
     tastingNotes: {
       nose: 'Fiori bianchi di biancospino, pietra focaia, scorza di limone d’Amalfi, burro fresco e gesso.',
@@ -529,7 +529,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 30,
     inVaultAvailable: true,
-    image: '/src/assets/images/tuscany_icon_bottle_1793199142012.jpg',
+    image: '/assets/images/tuscany_icon_bottle_1793199142012.jpg',
     description: 'L’annata capolavoro del mito di Bolgheri. 85% Cabernet Sauvignon e 15% Cabernet Franc dai terreni sassosi di Castiglioncello e San Martino.',
     tastingNotes: {
       nose: 'Cassis, rosmarino toscano, macchia mediterranea, grafite e tostatura nobile.',
@@ -557,7 +557,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 7,
     inVaultAvailable: true,
-    image: '/src/assets/images/tuscany_icon_bottle_1793199142012.jpg',
+    image: '/assets/images/tuscany_icon_bottle_1793199142012.jpg',
     description: 'Il più grande Merlot italiano, nato sulla collina di argilla blu pliocenica di Bolgheri. Un vino di leggendaria densità e setosità vellutata.',
     tastingNotes: {
       nose: 'Cioccolato fondente amaro, mora di rovo, violetta candita, vaniglia e tartufo nero.',
@@ -585,7 +585,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 12,
     inVaultAvailable: true,
-    image: '/src/assets/images/swiss_icon_bottle_1793199142931.jpg',
+    image: '/assets/images/swiss_icon_bottle_1793199142931.jpg',
     description: 'Il vertice assoluto della viticoltura svizzera a Fläsch nei Grigioni. Un Pinot Noir di classe mondiale vinificato per gravità ed elevato in rovere francese di Borgogna.',
     tastingNotes: {
       nose: 'Lampone alpino, grafite, chiodi di garofano, corteccia umida e noce moscata.',
@@ -615,7 +615,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 5,
     inVaultAvailable: true,
-    image: '/src/assets/images/collector_wooden_case_1793189054859.jpg',
+    image: '/assets/images/collector_wooden_case_1793189054859.jpg',
     description: 'Cofanetto celebrativo per il ventesimo anniversario di ARVI SA. Racchiude 6 annate storiche leggendarie di Château Ducru-Beaucaillou (2004, 2008, 2010, 2014, 2016, 2020) in cassa in legno numerata.',
     tastingNotes: {
       nose: 'Evoluzione verticale dal frutto giovane alla complessità terziaria di tabacco e tartufo.',
@@ -643,7 +643,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 3,
     inVaultAvailable: true,
-    image: '/src/assets/images/collector_wooden_case_1793189054859.jpg',
+    image: '/assets/images/collector_wooden_case_1793189054859.jpg',
     description: 'Una decade di perfezione con Château L’Angélus: 2012, 2014, 2016, 2018, 2020, 2022. Consegnato in splendido cofanetto laccato nero con certificato di autenticità della proprietà.',
     tastingNotes: {
       nose: 'Frutti neri intensi, campane di spezie, caffè tostato, cedro e mirtillo.',
@@ -671,7 +671,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 6,
     inVaultAvailable: true,
-    image: '/src/assets/images/collector_wooden_case_1793189054859.jpg',
+    image: '/assets/images/collector_wooden_case_1793189054859.jpg',
     description: 'Edizione limitata creata dall’artista e vignaiolo toscano Bibi Graetz. Un viaggio sensoriale attraverso le singole parcelle storiche che compongono il leggendario vino Colore.',
     tastingNotes: {
       nose: 'Arancia rossa sanguinella, rosmarino selvatico, lampone e polvere di roccia vulcanica.',
@@ -699,7 +699,7 @@ export const WINE_CATALOG: WineProduct[] = [
     ],
     stock: 2,
     inVaultAvailable: true,
-    image: '/src/assets/images/collector_wooden_case_1793189054859.jpg',
+    image: '/assets/images/collector_wooden_case_1793189054859.jpg',
     description: 'Il cofanetto più ambito al mondo dai grandi collezionisti. Contiene le 9 perle di Bordeaux dell’annata stellare 2019: Ausone, Cheval Blanc, Haut-Brion, Lafite Rothschild, Mouton Rothschild, Margaux, La Mission Haut-Brion, Petrus e Château d’Yquem.',
     tastingNotes: {
       nose: 'L’Olimpo dei profumi bordolesi in 9 declinazioni uniche.',

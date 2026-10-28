@@ -64,7 +64,7 @@ export const PrivateCellarAdvisorySection: React.FC<PrivateCellarAdvisorySection
           {/* Visual 1: Sommelier pouring rare vintage (7 cols) */}
           <div className="lg:col-span-7 relative rounded-2xl overflow-hidden shadow-lg border border-[#E3DDD4] group min-h-[380px]">
             <img
-              src="/src/assets/images/sommelier_decanter_crystal_1793199088489.jpg"
+              src="/assets/images/sommelier_decanter_crystal_1793199088489.jpg"
               alt="ARVI Master Sommelier Decanting Grand Cru"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
@@ -87,7 +87,7 @@ export const PrivateCellarAdvisorySection: React.FC<PrivateCellarAdvisorySection
           {/* Visual 2: Ancient Vault Archives with Historic Patina (5 cols) */}
           <div className="lg:col-span-5 relative rounded-2xl overflow-hidden shadow-lg border border-[#E3DDD4] group min-h-[380px] flex flex-col justify-end">
             <img
-              src="/src/assets/images/historic_wine_archive_1793199117633.jpg"
+              src="/assets/images/historic_wine_archive_1793199117633.jpg"
               alt="Archivio Storico Millesimi Rari ARVI Melano"
               className="w-full h-full object-cover absolute inset-0 transition-transform duration-700 group-hover:scale-105"
             />

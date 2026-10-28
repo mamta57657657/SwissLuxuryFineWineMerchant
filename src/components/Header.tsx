@@ -136,9 +136,14 @@ export const Header: React.FC<HeaderProps> = ({
           className="flex items-center gap-2.5 sm:gap-3 text-left group whitespace-nowrap shrink-0"
         >
           <img
-            src="/assets/aistudio/0026553_logo_7cacf244.webp"
+            src="/assets/aistudio/logo-dark.png"
+            onError={(e) => {
+              (e.currentTarget as HTMLImageElement).src = '/assets/aistudio/0026553_logo_7cacf244.webp';
+            }}
             alt="ARVI SA Grand Cru Emblem"
-            className="h-9 sm:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+            className="h-10 sm:h-11 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+            loading="eager"
+            decoding="async"
           />
           <div className="flex flex-col">
             <span className="font-serif text-xl sm:text-2xl font-semibold tracking-wider text-[#1A1718] leading-none">

@@ -117,7 +117,7 @@ export const EventsGalaSection: React.FC<EventsGalaSectionProps> = ({ currency, 
         {/* Hero Event Banner Image */}
         <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 mb-14 aspect-[21/9] min-h-[300px]">
           <img
-            src="/src/assets/images/private_tasting_dinner_1793199117326.jpg"
+            src="/assets/images/private_tasting_dinner_1793199117326.jpg"
             alt="ARVI Private Gala Dinner overlooking Swiss Lake"
             className="w-full h-full object-cover"
           />

@@ -347,7 +347,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                 <div className="p-4 bg-white rounded border border-[#EBE6DF] text-xs">
                   <div className="relative aspect-video bg-[#1A1718] rounded overflow-hidden flex flex-col items-center justify-center text-center p-4">
                     <img
-                      src="/src/assets/images/arvi_luxury_boutique_1793186969082.jpg"
+                      src="/assets/images/arvi_luxury_boutique_1793186969082.jpg"
                       alt="Tasting session lounge"
                       className="absolute inset-0 w-full h-full object-cover opacity-40"
                     />

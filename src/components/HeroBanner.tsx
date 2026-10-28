@@ -18,7 +18,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
       {/* Full-width Autumn Alpine Vineyard Hero */}
       <div className="relative min-h-[500px] sm:min-h-[560px] lg:min-h-[620px] flex items-center justify-center">
         <img
-          src="/src/assets/images/hero_swiss_vineyard_1793186967803.jpg"
+          src="/assets/images/hero_swiss_vineyard_1793186967803.jpg"
           alt="Una selezione di grandi vini per il tartufo, la selvaggina e i migliori sapori dell'autunno"
           className="absolute inset-0 w-full h-full object-cover object-center filter brightness-[0.75] contrast-[1.05]"
           fetchPriority="high"
