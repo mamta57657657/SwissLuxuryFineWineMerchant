@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix ARVI · Swiss Luxury Fine Wine Merchant",
+  "description": "Luxurious Shopify theme redesign for ARVI SA (Switzerland), featuring premier fine wine catalog, Cassaforte del Vino vault storage, 360° bottle viewer, multi-currency VAT switching, and Shopify Theme settings export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
